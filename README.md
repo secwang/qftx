@@ -26,3 +26,10 @@ fget{[path]}
 fpost:{[path;data]}
 ```
 Can support most of the restapi, but I did not fully implement, implemented some personal commonly used.
+
+--- 
+support subaccount by setting
+
+```
+subaccount:"other"
+```
