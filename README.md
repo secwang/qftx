@@ -8,7 +8,7 @@ Use req for https/custom header: https://github.com/jonathonmcmurray/reQ
 Special thanks to https://github.com/drzwz/qbitmex  
 
 
-### First, fill api and sec in settings like.
+First, fill api and sec in settings like.
 
 ```
 settings:`apiHost`apiKey`apiSecret!("ftx.com";"xxxx";"xxx")   //here
