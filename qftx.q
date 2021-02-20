@@ -7,10 +7,8 @@ req.SIGNAL:0
 usd:"USD"
 
 settings:`apiHost`apiKey`apiSecret!("ftx.com";"";"")
-//url-encoding on querystring, only value is URL-encoded: urlencode "/a?a=1&b=1"
-urlencode:{$[x like "*[?]*";$[x like "*=*";"&" sv{$[2=count x; "="sv(x 0;ssr[.h.hu x 1;"%??";upper]);x]}each "=" vs/: "&" vs x;x];x]};
-//qtime2unix .z.Z
 
+//qtime2unix .z.Z
 qtime2unix:{`long$8.64e4*10957+x};
 ts:{(qtime2unix .z.Z)*1000}
 
